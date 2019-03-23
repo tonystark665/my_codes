@@ -1,3 +1,6 @@
+//this is a program to find out the amount of money u owe each other after a series of spending by you and your friends.
+//optimize this code.
+
 #include<stdio.h>
 #include<malloc.h>
 main()
