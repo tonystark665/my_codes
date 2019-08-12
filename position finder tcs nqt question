@@ -1,0 +1,37 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+{
+    int x=0,y=0;
+    int num;
+    scanf("%d",&num);
+    int i;
+    int counter=10;
+    int *array=(int *)malloc(num*sizeof(int));
+    for(i=0;i<num;i++)
+    {
+        array[i]=counter;
+        counter+=10;
+    }
+    for(i=2;i<num;i+=4)
+    {
+        array[i]*=-1;
+        array[i+1]*=-1;
+    }
+    int itt=1;
+    while(itt<=num)
+    {
+        if(itt%2==0)
+        {
+            y+=array[itt-1];
+            itt++;
+        }
+        else
+        {
+            x+=array[itt-1];
+            itt++;
+        }
+    }
+    printf("%d %d",x,y);
+    return 0;
+}
