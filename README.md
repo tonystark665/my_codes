@@ -1,3 +1,2 @@
 # my_codes
-this is a place where i upload the things i try to create.
-i love to create something all the time, so, i will mostly be updating this repository very frequently.
+I will upload any problems asked in competitive examinations and also some codes that i try to create for fun. So, I will try to update this repository frequently.
